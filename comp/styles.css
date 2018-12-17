@@ -1,0 +1,36 @@
+.alert-secondary {
+    background-color: #28fa48;
+    margin: 20px;
+}
+
+.alert-primary {
+    z-index: 10;
+    transition: all 1s;
+}
+
+.alert-primary:hover {
+    transform: translate(20px, 40px);
+}
+
+.col-sm {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 2px 2px 5px #888888;
+}
+
+.cont-bottom {
+    position: fixed;
+    width: 100%;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
