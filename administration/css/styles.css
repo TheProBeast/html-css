@@ -1,0 +1,41 @@
+#diag {
+    height: 500px;
+    border-style: solid;
+    border-color: grey;
+    display: flex;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+#test{
+    background-color: red;
+    height: 300px;
+}
+
+.case{
+    width: 30px;
+}
+
+#grad {
+    border-style: solid;
+    border-color: red;
+    display: flex;
+    height: 500px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+#grad > div {
+    border-style: solid;
+}
+.flexbox {
+    display: flex;
+    border-style: solid;
+}
+
+.flexbox > div {
+    margin: 20px;
+}
+
